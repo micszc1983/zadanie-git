@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 ///█ ■
+///Michal Szczygiel & Michal Soja
+/// test    
+/// conflicts
 ////https://www.youtube.com/watch?v=SGZgvMwjq2U
 namespace Snake
 {
