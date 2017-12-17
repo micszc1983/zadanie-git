@@ -41,22 +41,22 @@ namespace Snake
                 for (int i = 0; i < screenwidth; i++)
                 {
                     Console.SetCursorPosition(i, 0);
-                    Console.Write("■");
+                    Console.Write("#");
                 }
                 for (int i = 0; i < screenwidth; i++)
                 {
                     Console.SetCursorPosition(i, screenheight - 1);
-                    Console.Write("■");
+                    Console.Write("#");
                 }
                 for (int i = 0; i < screenheight; i++)
                 {
                     Console.SetCursorPosition(0, i);
-                    Console.Write("■");
+                    Console.Write("#");
                 }
                 for (int i = 0; i < screenheight; i++)
                 {
                     Console.SetCursorPosition(screenwidth - 1, i);
-                    Console.Write("■");
+                    Console.Write("#");
                 }
                 Console.ForegroundColor = ConsoleColor.Green;
                 if (berryx == hoofd.xpos && berryy == hoofd.ypos)
