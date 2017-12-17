@@ -22,7 +22,7 @@ namespace Snake
             pixel hoofd = new pixel();
             hoofd.xpos = screenwidth / 2;
             hoofd.ypos = screenheight / 2;
-            hoofd.schermkleur = ConsoleColor.Red;
+            hoofd.schermkleur = ConsoleColor.Blue;
             string movement = "RIGHT";
             List<int> xposlijf = new List<int>();
             List<int> yposlijf = new List<int>();
