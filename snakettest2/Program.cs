@@ -82,7 +82,7 @@ namespace Snake
                 Console.ForegroundColor = hoofd.schermkleur;
                 Console.Write("■");
                 Console.SetCursorPosition(berryx, berryy);
-                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.Write("■");
                 tijd = DateTime.Now;
                 buttonpressed = "no";
