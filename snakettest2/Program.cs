@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 ///█ ■
+///Michal Szczygiel & Michal Soja
+/// test    
+/// conflicts
 ////https://www.youtube.com/watch?v=SGZgvMwjq2U
 namespace Snake
 {
@@ -22,7 +25,7 @@ namespace Snake
             pixel hoofd = new pixel();
             hoofd.xpos = screenwidth / 2;
             hoofd.ypos = screenheight / 2;
-            hoofd.schermkleur = ConsoleColor.Red;
+            hoofd.schermkleur = ConsoleColor.Blue;
             string movement = "RIGHT";
             List<int> xposlijf = new List<int>();
             List<int> yposlijf = new List<int>();
