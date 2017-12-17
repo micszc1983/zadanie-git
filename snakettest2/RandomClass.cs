@@ -13,8 +13,15 @@ namespace snakettest2
         {
             Console.WriteLine("Random text");
         }
+		
+		public void Greet()
+        {
+            System.Console.WriteLine("Hello World");
+        }
 
     }
 
 
 }
+
+
